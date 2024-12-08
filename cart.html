@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike Shopping</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <header>
+    <nav class="main-nav">
+      <ul>
+        <li>Find a Store</a></li>
+        <li>Help</a></li>
+      </ul>
+    </nav>
+    <nav class="secondary-nav">
+      <ul>
+        <li><a href="#">New & Featured</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Kids</a></li>
+        <li><a href="#">Sale</a></li>
+        <li><a href="#">SNKRS</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#" id="bag-icon">Bag (2)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="promo-banner">
+      <p>Free Delivery <span>Applies to orders of ₹ 14 000.00 or more.</span></p>
+    </section>
+
+    <section class="products">
+      <h2>Featured</h2>
+      <div class="product">
+        <img src="assets/Nike Dri-FIT ADV TechKnit Ultra.jpeg" alt="">
+        <h3>Nike Dri-FIT ADV TechKnit Ultra</h3>
+        <p>MRP: ₹ 3 895.00</p>
+        <button class="add-to-cart" data-product="1">Add to Bag</button>
+      </div>
+
+      <div class="product">
+        <img src="assets/Nike Air Max 97 SE.jpeg" alt="Nike Air Max 97 SE">
+        <h3>Nike Air Max 97 SE</h3>
+        <p>MRP: ₹ 16 995.00</p>
+        <button class="add-to-cart" data-product="2">Add to Bag</button>
+      </div>
+    </section>
+
+    <section class="cart-summary">
+      <h2>Summary</h2>
+      <p>Subtotal: <span id="subtotal">₹ 20 890.00</span></p>
+      <p>Estimated Delivery & Handling: <span>Free</span></p>
+      <p>Total: <span id="total">₹ 20 890.00</span></p>
+      <button class="checkout">Member Checkout</button>
+    </section>
+  </main>
+
+  <footer>
+    <ul>
+      <li><a href="#">Find A Store</a></li>
+      <li><a href="#">Get Help</a></li>
+      <li><a href="#">About Nike</a></li>
+      <li><a href="#">Become A Member</a></li>
+      <li><a href="#">Order Status</a></li>
+    </ul>
+    <p>© 2023 Nike, Inc. All Rights Reserved</p>
+  </footer>
+
+  <script src="script.ts"></script>
+</body>
+</html>

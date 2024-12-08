@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike Checkout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header">
+      <p>Customer Support: <a href="tel:0008001009538">000 800 100 9538</a></p>
+    </div>
+  </header>
+
+  <main>
+    <section class="order-summary">
+      <h2>Order Summary</h2>
+      <p>
+        Customs regulations for India require a copy of the recipient's KYC. The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for all orders and returns. 
+        <a href="#">Learn More</a>
+      </p>
+      <div class="summary-details">
+        <p>Subtotal: <span>₹ 20 890.00</span></p>
+        <p>Delivery/Shipping: <span>Free</span></p>
+        <p>Total: <span>₹ 20 890.00</span></p>
+        <p><em>(The total reflects the price of your order, including all duties and taxes)</em></p>
+        <p>Arrives: <strong>Mon, 27 Mar - Wed, 12 Apr</strong></p>
+      </div>
+    </section>
+
+    <section class="product-details">
+      <h2>Products</h2>
+      <div class="product">
+        <h3>Nike Dri-FIT ADV TechKnit Ultra Men's Short-Sleeve Running Top</h3>
+        <p>Qty: 1</p>
+        <p>Size: L</p>
+        <p>Price: ₹ 3 895.00</p>
+      </div>
+      <div class="product">
+        <h3>Nike Air Max 97 SE Men's Shoes</h3>
+        <p>Qty: 1</p>
+        <p>Size: UK 8</p>
+        <p>Price: ₹ 16 995.00</p>
+      </div>
+    </section>
+
+    <section class="delivery-info">
+      <h2>Enter Your Name and Address</h2>
+      <form id="checkout-form">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName" required>
+        
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="address1">Address Line 1</label>
+        <input type="text" id="address1" name="address1" required>
+
+        <label for="address2">Address Line 2</label>
+        <input type="text" id="address2" name="address2">
+
+        <label for="postalCode">Postal Code</label>
+        <input type="text" id="postalCode" name="postalCode" required>
+
+        <label for="locality">Locality</label>
+        <input type="text" id="locality" name="locality" required>
+
+        <label for="state">State/Territory</label>
+        <input type="text" id="state" name="state" required>
+
+        <input type="checkbox" id="saveAddress" name="saveAddress">
+        <label for="saveAddress">Save this address to my profile</label>
+        
+        <input type="checkbox" id="preferredAddress" name="preferredAddress">
+        <label for="preferredAddress">Make this my preferred address</label>
+      </form>
+    </section>
+
+    <section class="contact-info">
+      <h2>What's Your Contact Information?</h2>
+      <form>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <small>A confirmation email will be sent after checkout.</small>
+
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" required>
+        <small>A carrier might contact you to confirm delivery.</small>
+      </form>
+    </section>
+
+    <section class="pan-info">
+      <h2>What's Your PAN?</h2>
+      <form>
+        <label for="pan">PAN</label>
+        <input type="text" id="pan" name="pan" required>
+        <input type="checkbox" id="savePan" name="savePan">
+        <label for="savePan">Save PAN details to Nike Profile</label>
+      </form>
+      <p>
+        I have read and consent to eShopWorld processing my information in accordance with the 
+        <a href="#">Privacy Statement</a> and <a href="#">Cookie Policy</a>. eShopWorld is a trusted Nike partner.
+      </p>
+    </section>
+
+    <button id="continue-btn">Continue</button>
+  </main>
+
+  <footer>
+    <p>India | © 2023 NIKE, Inc. All Rights Reserved</p>
+    <a href="#">Terms of Use</a> | <a href="#">Terms of Sale</a> | <a href="#">Privacy Policy</a>
+  </footer>
+
+  <script src="script.ts"></script>
+</body>
+</html>

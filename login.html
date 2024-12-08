@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike Sign In</title>
+  <link rel="file" href="login.ts">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <!-- Top Navigation -->
+  <header class="top-nav">
+    <nav>
+      <ul>
+        <li><a href="#">Find a Store</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Join Us</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Navigation -->
+  <header class="main-nav">
+    <nav>
+      <ul>
+        <li><a href="#">New & Featured</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Kids</a></li>
+        <li><a href="#">Sale</a></li>
+        <li><a href="#">SNKRS</a></li>
+        <li><a href="#">Search</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Login Section -->
+  <section class="login-section">
+    <h1>YOUR ACCOUNT FOR EVERYTHING NIKE</h1>
+    <form id="login-form">
+      <label for="email">Email address</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+      
+      <div class="checkbox-container">
+        <input type="checkbox" id="keep-signed-in">
+        <label for="keep-signed-in">Keep me signed in</label>
+      </div>
+      
+      <a href="#" class="forgot-password">Forgotten your password?</a>
+      <p>By logging in, you agree to Nike's <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
+      <button type="submit">SIGN IN</button>
+      <p>Not a Member? <a href="#">Join Us</a>.</p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <ul>
+      <li><a href="#">Find A Store</a></li>
+      <li><a href="#">Get Help</a></li>
+      <li><a href="#">About Nike</a></li>
+      <li><a href="#">Terms of Use</a></li>
+    </ul>
+    <p>&copy; 2023 Nike, Inc. All Rights Reserved</p>
+  </footer>
+
+  <script src="script.ts"></script>
+</body>
+</html>

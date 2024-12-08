@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Become a Nike Member</title>
+  <link rel="stylesheet" href="signup.css">
+  <link rel="file" href="signup.ts">
+</head>
+<body>
+  <!-- Top Navigation -->
+  <header class="top-nav">
+    <nav>
+      <ul>
+        <li><a href="#">Find a Store</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Join Us</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Navigation -->
+  <header class="main-nav">
+    <nav>
+      <ul>
+        <li><a href="#">New & Featured</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Kids</a></li>
+        <li><a href="#">Sale</a></li>
+        <li><a href="#">SNKRS</a></li>
+        <li><a href="#">Search</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sign-Up Section -->
+  <section class="signup-section">
+    <h1>BECOME A NIKE MEMBER</h1>
+    <p>Create your Nike Member profile and get first access to the very best of Nike products, inspiration, and community.</p>
+    <form id="signup-form">
+      <label for="email">Email address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="first-name">First Name</label>
+      <input type="text" id="first-name" name="firstName" required>
+
+      <label for="last-name">Last Name</label>
+      <input type="text" id="last-name" name="lastName" required>
+
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" required>
+      <p>Get a Nike Member Reward every year on your Birthday.</p>
+
+      <label for="country">Country</label>
+      <select id="country" name="country" required>
+        <option value="India">India</option>
+        <!-- Add more countries as needed -->
+      </select>
+
+      <label>Gender</label>
+      <div class="radio-group">
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+      </div>
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="email-updates">
+        <label for="email-updates">
+          Sign up for emails to get updates from Nike on products, offers, and your Member benefits.
+        </label>
+      </div>
+
+      <p>By creating an account, you agree to Nike's <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
+      <button type="submit">JOIN US</button>
+      <p>Already a Member? <a href="#">Sign In</a>.</p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <ul>
+      <li><a href="#">Find A Store</a></li>
+      <li><a href="#">Get Help</a></li>
+      <li><a href="#">About Nike</a></li>
+      <li><a href="#">Terms of Use</a></li>
+    </ul>
+    <p>&copy; 2023 Nike, Inc. All Rights Reserved</p>
+  </footer>
+
+  <script src="script.ts"></script>
+</body>
+</html>
